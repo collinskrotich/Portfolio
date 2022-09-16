@@ -26,10 +26,6 @@
   .unimportant {
     color: blue;
   }
-  img{
-    float: left;
-    margin: 20px;
-  }
   .column {
     width: 350px;
     float: left;
@@ -66,6 +62,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    width: 40px;  
   }
   .centered{
     display: flex;
@@ -85,12 +82,18 @@
   .padChild{
     padding: 25px;
   }
+  
+  img{
+    width: 30px;
+    height: 30px;
+  }
   /* About Section */
-  .aboutSection .aboutSection{
-    height: 350px;
-    width: 60%;
+  .aboutSection .aboutImg{
+    height: 200px;
+    width: 40%;
     margin-left: auto;
     border-radius: 30px;
+    align-items: center;
   }
   @media (max-width: 1000px){
     .aboutSection .aboutImg{
