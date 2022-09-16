@@ -1,4 +1,10 @@
-h1 {
+  body{
+    background-color: rgb(12, 11, 11);
+    padding: 0px 20px;
+    color: aliceblue;
+    font-family: "Inter", sans-serif;
+  }
+  h1 {
     color: blue;
     text-align: center;
   }
@@ -28,4 +34,37 @@ h1 {
     width: 350px;
     float: left;
     margin: 10px;
+  }
+
+  /* nav Section */
+  .topHeader.logo{
+    font-size: 18px;
+    font-weight: bold;
+  }
+  @media (max-width: 500px){
+    .topHeader.flex-space-btw {
+      display: block;
+      text-align: center;
+    }
+  }
+  .icon{
+    width: 24px;
+    height: 24px;
+    margin: 0px 3px;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .centered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-space-btw{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .padChild{
+    padding: 25px;
   }
