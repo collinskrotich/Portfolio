@@ -19,13 +19,17 @@
   }
   ul {
     line-height: 40px;
+    text-align: center;
+  }
+  ol {
+    line-height: 40px;
+    text-align: center;
   }
   .important {
     color: red;
+    align-items: center;
   }
-  .unimportant {
-    color: blue;
-  }
+
   .column {
     width: 350px;
     float: left;
@@ -83,9 +87,14 @@
     padding: 25px;
   }
   
-  img{
-    width: 30px;
-    height: 30px;
+  .img_center{
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    align-content: center;
+    align-self: center;
   }
   /* About Section */
   .aboutSection .aboutImg{
