@@ -20,6 +20,7 @@
   ul {
     line-height: 40px;
     text-align: center;
+    display: inline-block;
   }
   ol {
     line-height: 40px;
@@ -28,9 +29,19 @@
   li{
     text-align: center;
   }
+  div.cont{
+    text-align: center;
+  }
+  ol.mylist{
+    display: inline-block;
+    text-align: left;
+  }
+  ul.mylist{
+    display: inline-block;
+    text-align: left;
+  }
   .important {
     color: yellowgreen;
-    align-items: center;
   }
 
   .column {
