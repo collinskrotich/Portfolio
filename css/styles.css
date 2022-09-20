@@ -25,6 +25,9 @@
     line-height: 40px;
     text-align: center;
   }
+  li{
+    text-align: center;
+  }
   .important {
     color: yellowgreen;
     align-items: center;
@@ -35,26 +38,14 @@
     float: left;
     margin: 10px;
   }
-
-  /* nav Section */
-  .topHeader.logo{
-    font-size: 18px;
-    font-weight: bold;
-  }
   .icon{
     width: 24px;
     height: 24px;
     margin: 0px 3px;
   }
-  *{
-    box-sizing: border-box;
-  }
   .container{
     width: 85%;
     margin: auto;
-  }
-  section{
-    margin: 150px 0px;
   }
   .centered{
     display: flex;
@@ -84,25 +75,5 @@ em{
     align-content: center;
     align-self: center;
   }
-  /* About Section */
-  .aboutSection .aboutImg{
-    height: 200px;
-    width: 40%;
-    margin-left: auto;
-    border-radius: 30px;
-    align-items: center;
-  }
-  @media (max-width: 1000px){
-    .aboutSection .aboutImg{
-      width: 80%;
-    }
-    @media (max-width: 800px) {
-      .aboutSection{
-        display: block;
-      }
-      .aboutSection .aboutImg {
-        display: none;
-      }
-    }
-  }
+
   
