@@ -71,9 +71,9 @@
     justify-content: right;
     align-items: center;
   }
-  .padChild{
-    padding: 25px;
-  }
+em{
+  color: coral;
+}
   
   .img_center{
     display: block;
