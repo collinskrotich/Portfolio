@@ -41,12 +41,6 @@
     font-size: 18px;
     font-weight: bold;
   }
-  @media (max-width: 500px){
-    .topHeader.flex-space-btw {
-      display: block;
-      text-align: center;
-    }
-  }
   .icon{
     width: 24px;
     height: 24px;
@@ -61,12 +55,6 @@
   }
   section{
     margin: 150px 0px;
-  }
-  .backgroundFix{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 40px;  
   }
   .centered{
     display: flex;
